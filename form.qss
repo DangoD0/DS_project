@@ -1,0 +1,45 @@
+QPushButton
+{
+	background-color: silver;
+	border: 2px solid black;
+	border-radius: 10px;
+	color: black;
+	font-size: 14px;
+}
+	
+QPushButton:hover
+{
+	background-color: gray;
+	border: 2px solid black;
+	border-radius: 0px;
+	color: white;
+	font-size: 16px;
+}
+QPushButton:pressed
+{
+	background-color: beige;
+	border: 2px solid black;
+	border-radius: 20px;
+	color: black;
+	font-size: 16px;
+	font:bold
+}
+QTableWidget
+{
+	 gridline-color: #999999;  
+	border:1px solid #999999; 
+}
+QTableWidget::Item
+{
+	background-color: white;
+	color: rgb(45,90,240);
+	font-size: 10px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+QTableWidget::Item:hover
+{
+	background-color: silver;
+	color: white;
+	font-size: 12px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
